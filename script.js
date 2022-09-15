@@ -139,3 +139,12 @@ setInterval(() => {
 
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
 }, 1000);
+
+// blog button click
+function blogBtn() {
+  window.location.assign("blog.html")
+}
+// speed test page button click
+function speedTestPage() {
+  window.location.assign("index.html")
+}
